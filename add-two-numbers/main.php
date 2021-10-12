@@ -93,7 +93,7 @@ echo "1289 + 7618 = 8907 == " . var_export($sol->addTwoNumbers(
   new ListNode(8, new ListNode(1, new ListNode(6, new ListNode(7))))
 ), 1) .PHP_EOL.PHP_EOL.PHP_EOL;
 
-// Should return 7 0 9 8
+// Should return 6 2 4 7 9 1
 $sol = new Solution();
 echo "98713 + 98713 = 197426 == " . var_export($sol->addTwoNumbers(
   new ListNode(3, new ListNode(1, new ListNode(7, new ListNode(8, new ListNode(9))))),
