@@ -26,12 +26,8 @@ class Solution {
    */
   public function addTwoNumbers($l1, $l2): ListNode
   {
-    $carry = 0;
     $sum = $l1->val + $l2->val;
-
-    if ($sum > 9) {
-      $carry = 1;
-    }
+    $carry = $sum > 9 ? 1 : 0;
 
     $result = new ListNode($sum % 10);
 
