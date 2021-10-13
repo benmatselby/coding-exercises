@@ -1,3 +1,3 @@
 # Coding exercises
 
-So far from [LeedCode](https://leetcode.com).
+To keep the mind active, and have fun with different languages. So far, all the exercises are from [LeetCode](https://leetcode.com).
