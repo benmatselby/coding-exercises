@@ -11,6 +11,8 @@
  *
  * > countAndSay(3333333333)
  * > "ten 3s"
+ *
+ * Source: https://buttondown.email/cassidoo/archive/a-ship-in-port-is-safe-but-thats-not-what-ships/
  */
 
 /**
