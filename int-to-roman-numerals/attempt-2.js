@@ -39,7 +39,7 @@ const romans = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV"
 function main() {
   console.log("3 = " + intToRoman(3) + " which should be III");
   console.log("4 = " + intToRoman(4) + " which should be IV");
-  console.log("8 = " + intToRoman(8) + " which should be VII");
+  console.log("8 = " + intToRoman(8) + " which should be VIII");
   console.log("9 = " + intToRoman(9) + " which should be IX");
   console.log("30 = " + intToRoman(30) + " which should be XXX");
   console.log("40 = " + intToRoman(40) + " which should be XL");
