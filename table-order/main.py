@@ -1,6 +1,11 @@
+# Given an array of order objects for a restaurant, each with a table number and a list of
+# ordered items, write a function that returns an object mapping each table number to a summary
+# of how many times each item was ordered at that table.
+
 from collections import defaultdict
 
 orders = [
+    {"table": 3, "items": ["fries"]},
     {"table": 1, "items": ["burger", "fries"]},
     {"table": 2, "items": ["burger", "burger", "fries"]},
     {"table": 1, "items": ["salad"]},
